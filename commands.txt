@@ -1,0 +1,20 @@
+npm install -g @angular/cli
+ng new --no-standalone appname
+ng generate component component-name
+ng serve
+
+for adding bootstrap:
+first install it using npm install bootstrap
+then go to angular.json and add to styles of build:
+"./node_modules/bootstrap/dist/css/bootstrap.min.css"
+and to scripts:
+"./node_modules/bootstrap/dist/js/bootstrap.js"
+
+for adding jquery:
+in angular.json add to script:
+"./node_modules/jquery/dist/jquery.js"
+
+Ng directives
+Ng decorator
+
+For using the forms and the ngSubmit and ngModule in the form add FormsModule in @NgModules(in imports)  in app.module.ts
